@@ -1,7 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
 .aa{
     display: flex;
     list-style: none;
-    float: left;
+    float: right;
     margin-right: 50px;
 
 }
@@ -9,5 +23,20 @@ li a{
     text-decoration: none;
     padding: 15px;
 
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 1px 1px aqua;
+}
+p{
+    background-color: blue;
+    color: aliceblue;
+    margin-top: 10px;
+}
+h4{
+    margin-top: 10px;
+    text-align: center;
+    background-color: gray;
 }
 
